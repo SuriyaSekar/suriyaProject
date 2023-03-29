@@ -1,0 +1,233 @@
+body{
+    margin: auto;
+    /*margin: 0px;*/
+    background-color: #d9b6ca;
+}
+
+header{
+    height: 60px;
+    /*border: 5px solid hotpink;*/
+    background-color: #3b2632;
+
+}
+
+.azImg{
+    height: 60px;
+    width: 200px;
+    float: left;
+   
+}
+.locImg{
+    height: 100%;
+    width: 20px;
+    margin-left: -3.5px;
+    float: left;
+
+}
+
+/* select{
+    height: 60px;
+    width: 4%;
+    float: left;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5%;
+    
+} */
+
+.dropdown{
+    height: 60px;
+    width: 80%;
+    /* border: 2px solid white; */
+    /* margin-left: 29%;
+    margin-top: 21%; */
+    /* position: absolute; */
+    display: inline-block;
+}
+
+select{
+    height: 60px;
+    width: 5%;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 1%;
+    margin-top: -1%;
+    /* margin-top: 2px; */
+    /* margin-bottom: 30px; */
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#restSelect{
+    width: 59%;
+    float: left;
+}
+
+/* Content1 */
+.content1{
+    height: 400px;
+    /* border: 1px solid rgb(216, 44, 44); */
+    background-image: url(image/upcoming-amazon-sale.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+/* /Content2 */
+.content2{
+    height: 800px;
+    /* border: 4px double rgb(37, 23, 97); */
+}
+
+/*Quick Search*/
+#quickSearch{
+    /* height: 600px; */
+    /* border: 5px double olive;  */
+    /* background-color: #c93388; */
+    display: inline-block;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.quickHeading{
+    color: #3b2632;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin-left: 2%;
+
+}
+
+.quickHeading:hover{
+    font-size: 35px;
+    color: rgb(213, 36, 36);
+}
+
+.quickSubHeading{
+    color: rgb(99, 37, 165);
+    font-size: 20px;
+    line-height: 2;
+    margin-left: 2%;
+}
+
+.tileContainer{
+    height: 190px;
+    width: 30%;
+    margin-left: 2%;
+    margin-top: 3%;
+    /* border: 2px solid black; */
+    box-shadow: 10px 20px 10px rgb(185, 243, 241);
+    float: left;
+    animation: dance 5s infinite;
+}
+
+@keyframes dance {
+    0%{
+        
+        transform: rotate(-5deg);
+    }
+    25%{
+       
+        transform: rotate(0deg);
+    }
+    40%{
+        transform: scale(1.1);
+        /* transform: rotate(0deg); */
+    }
+    50%{
+        
+        transform: rotate(5deg);
+    }
+    75%{
+        
+        transform: rotate(0deg);
+    }
+    100%{
+        
+        transform: rotate(-5deg);
+    }
+}
+
+.tileContainer:hover{
+    transform: scale(1.1);
+    /* transform: skewX(30deg); */
+    /* transform: rotate(40deg); */
+    /* transform: translate(180px, 200px); */
+}
+
+.tileComponent1{
+    width: 52%;
+    float: left;
+}
+
+.tileComponent1 > img{
+    width: 100%;
+    height: 100%;
+}
+
+.tileComponent2{
+    width: 45%;
+    float: left;
+   margin-left: 3%;
+   margin-top: 15%;
+}
+
+.compHeading{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #3b2632;
+}
+
+.compHeading>a{
+    color: #3b2632 !important
+}
+
+.compSubHeading{
+    font-size: 15px;
+    color: gray
+}
+
+.offerrr{
+    font-size: 12px;
+    color: rgb(156, 78, 78);
+}
+
+/* Footer */
+footer{
+    /* height: 80px; */
+    /* border: 5px groove green; */
+    background-color: #3b2632;
+    color: white;
+    text-align: center;
+}
+
+.fooText{
+    font-size: 20px;
+}
+
+.footDiv{
+    display: inline-block;
+    width: 32%;
+    border-right: 2px solid white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.noBorder{
+    border: none;
+}
+
+.sociallogo{
+    height: 50px;
+}
+
+.fooThead{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: orangered;
+    margin-bottom: 5%;
+}
